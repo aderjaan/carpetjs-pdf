@@ -1,0 +1,54 @@
+{
+  "name": "carpetjs-pdf",
+  "description": "Utility layer for creating pdfs within a CarpetJS context",
+  "version": "0.9.3",
+  "author": {
+    "name": "Ruben Stolk",
+    "email": "ruben.stolk@safetychanger.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carpetjs/carpetjs-pdf"
+  },
+  "homepage": "http://carpetjs.github.io/",
+  "keywords": [
+    "express",
+    "mongoose",
+    "web api",
+    "api"
+  ],
+  "dependencies": {
+    "node-phantom-simple": "2.2.4",
+    "nunjucks": "3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "eslint": "2.11.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.8.1",
+    "eslint-plugin-jsx-a11y": "1.2.2",
+    "eslint-plugin-react": "5.1.1",
+    "open": "0.0.5",
+    "phantomjs-prebuilt": "latest"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "HISTORY.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "stub": "node stub.js"
+  },
+  "bugs": {
+    "url": "https://github.com/carpetjs/carpetjs-pdf/issues"
+  }
+}

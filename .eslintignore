@@ -1,0 +1,6 @@
+node_modules
+coverage
+.git
+utils/password-strength.js
+apps/**/**/tests/**/*.js
+scripts
